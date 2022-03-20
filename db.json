@@ -1,34 +1,70 @@
-{
-"userid":"LM00001",
-"key"   :"234569",
-"contact":"7204286228",
-"Profile_info": [
+export const profiles = [
     {
-        "Name":"Ashok",
-        "Age" : "32",
-        "Gender":"M",
-        "Status":"Single",
-        "Location":"Bangalore",
-        "Bio":"",
-        "image":"url/.png"
-    }
-],
-"Profile_links": [
-    {
-        "Title":"Facebook",
-        "link" : "url"
+      userid: 'LM00001',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Divya Priya',
+      image: '/id1.png',
+      bio:'Age 31, Bangalore',
+      body:'Working at Bangalore',
     },
     {
-        "Title":"Matrimony",
-        "link" : "url"
+      userid: 'LM00002',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Priyanka R',
+      image: '/id2.png',
+      bio:'Age 31, Bangalore',
+      body:'Working at Bangalore',
     },
     {
-        "Title":"Linkedlin",
-        "link" : "url"
+      userid: 'LM00003',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Jeeva M',
+      bio:'Age 31, Chennai',
+      body:'Working at Chennai',
+     },
+     {
+      userid: 'LM00004',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Supriya B',
+      bio:'Age 31, Bangalore',
+      body:'Living in Bangalore',
+     },
+     {
+      userid: 'LM00005',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Divya Priya',
+      image: '/id1.png',
+      bio:'Age 31, Bangalore',
+      body:'Working at Bangalore',
     },
     {
-        "Title":"Instagram",
-        "link" : "url"
-    }
-]
-}
+      userid: 'LM00006',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Priyanka R',
+      image: '/id2.png',
+      bio:'Age 31, Bangalore',
+      body:'Working at Bangalore',
+    },
+    {
+      userid: 'LM00007',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Jeeva M',
+      bio:'Age 31, Chennai',
+      body:'Working at Chennai',
+     },
+     {
+      userid: 'LM00008',
+      key:"234569",
+      contact:"7204286228",
+      title: 'Supriya B',
+      bio:'Age 31, Bangalore',
+      body:'Living in Bangalore',
+     },
+  ]
